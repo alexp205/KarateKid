@@ -1,0 +1,11 @@
+- example:
+  - https://github.com/soumith/cvpr2015/blob/master/DQN%20Training%20iTorch.ipynb
+- setup stuff:
+  - https://github.com/luarocks/luarocks/wiki/installation-instructions-for-windows
+  - https://github.com/torch/torch7/wiki/Windows
+
+Currently, strongly considering switching from using the Lua script method to
+actually editing the BizHawk source code to support my own RL methods and
+integrations.
+Refer to this:
+https://medium.com/gyroscopesoftware/how-we-built-an-ai-to-play-street-fighter-ii-can-you-beat-it-9542ba43f02b
