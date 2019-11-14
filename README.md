@@ -1,2 +1,2 @@
-# WaterFoul
-Reinforcement learning agent designed to play Duck Hunt, a simple but methodically representative environment in the FPS genre.
+# KarateKid
+Reinforcement learning agent designed to play Karate Champ, a simple but methodically representative environment in the Fighting Game genre.
