@@ -9,3 +9,23 @@ actually editing the BizHawk source code to support my own RL methods and
 integrations.
 Refer to this:
 https://medium.com/gyroscopesoftware/how-we-built-an-ai-to-play-street-fighter-ii-can-you-beat-it-9542ba43f02b
+- if I choose to do this, relevant changes to emulator will be copied and
+  pushed here but main changes/project will be at:
+  .../Install/BizHawk_source/BizHawk
+- some notable changes that probably should be made to BizHawk based off of
+  the linked project and their implementation:
+  + in BizHawk/BizHawk.Client.EmuHawk/tools: AutoHawk.cs and friends (nm,
+  looks like this was changed between BizHawk versions, *see below link)
+  + in ": GyroscopeBot dir
+  + https://github.com/TASVideos/BizHawk/compare/master...GyroscopeHQ:master
+
+General (Example) Workflow:
+1) setup connection (e.g. socket) to controller code
+2) pass observation from game
+3) use AI with received observation to generate response (i.e. controller
+inputs)
+4) pass controller inputs to game
+5) advance (NOTE: eventually, there should be no control over this!)
+
+- for training of course, we'll be performing updates during these steps,
+  testing is just not-updating
