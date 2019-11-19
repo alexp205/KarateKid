@@ -11,7 +11,7 @@ Refer to this:
 https://medium.com/gyroscopesoftware/how-we-built-an-ai-to-play-street-fighter-ii-can-you-beat-it-9542ba43f02b
 - if I choose to do this, relevant changes to emulator will be copied and
   pushed here but main changes/project will be at:
-  .../Install/BizHawk_source/BizHawk
+  .../Research/projects/envs/BizHawk
 - some notable changes that probably should be made to BizHawk based off of
   the linked project and their implementation:
   + in BizHawk/BizHawk.Client.EmuHawk/tools: AutoHawk.cs and friends (nm,
